@@ -4,7 +4,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Organization is Ownable
+contract Managers is Ownable
 {
     address[20] public managers;
     uint8 public managerCount = 0; 
